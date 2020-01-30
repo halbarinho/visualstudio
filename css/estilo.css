@@ -1,0 +1,139 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+#cabecera{
+    position: relative;
+    width: 920px;
+    height: 100px;
+    padding: 20px 20px 0px 20px;
+    background-image: linear-gradient(#3E9722, #cae646);
+    border-radius: 25px 25px 25px 25px;
+    
+}
+#titulo{
+    position: absolute;
+    float: left;
+    width: 100px;
+    height: 100px;
+    bottom: 2px;
+
+}
+
+#menu{
+    float: right;
+    position: absolute;
+    bottom: 0px;
+    right: 20px;
+
+}
+#menu ul{
+    list-style-type: none; 
+}
+#menu ul li{
+    
+  width: 100px;
+  height: 25px;
+  float: left;
+  text-align: center;
+  margin: 0 1px 0 1px;
+  background-image: linear-gradient(to right, #cae646,white,#cae646);
+  border-radius: 4px;
+    
+}
+#menu ul li a{
+    display: block;
+    text-decoration: none;
+    padding-top: 4px;
+    width: 100px;
+    height: 25px;
+   
+}
+a:link{}
+a:visited{}
+#menu * li a:hover{
+    background-color: #E58c24;
+}
+a:active{}
+#cuerpo{
+   
+    float: left;
+    margin: auto;
+    position: relative;
+    padding: 8px;
+   /* border-style: solid solid none solid;
+    border-width: 5px;
+    border-color: #3E9722;
+    border-radius: 25px 25px 0 0;
+    */
+}
+#cuerpo * h1{
+    background-color: #3C74E6;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    text-align: center;
+    color: white;
+    padding: 2px;
+}
+
+#columna1{
+width: 220px;
+float: left;
+}
+.a_formulario{
+    text-decoration: underline;
+    color: #3E9722;
+}
+
+#columna2{
+    width: 480px;
+    padding-left: 20px;
+    float: left ;
+}
+#columna2 p{
+    text-align: justify;
+}
+#columna2 h2{
+    font-size: small;
+}
+.autoria{
+    border-style: solid none none none;
+    border-width: 1px ;
+    border-color:#666666;
+}
+#columna3{
+    width: 180px;
+    padding-left: 20px;
+    float: left;
+}
+#cuerpo * a{
+    color: #3E9722;
+}
+.ordenministerial{
+    font-style: italic;
+    text-align: justify;
+}
+#columna1 * a{
+    text-decoration: none;
+}
+.bordeverde{
+    width: 920px;
+    height: 50px;
+    border-style: solid solid none solid;
+    border-width: 5px;
+    border-color: #3E9722;
+    border-radius: 25px 25px 0 0;
+    padding: 8px;
+
+}
+.foto{
+    text-align: center;
+}
+#pie{
+    width: 960px;
+    position: relative;
+    float: left;
+    text-align: center;
+}
+
